@@ -1,4 +1,4 @@
-local sudomsg = 282958812 -- put your id here 
+local sudomsg = 274807882 -- put your id here 
 local function reload_plugins( )
   plugins = {}
   load_plugins()
@@ -219,7 +219,7 @@ local hash = ('bot:pm')
 end
 if matches[1]== "help" and is_sudo(msg) then
 local text =[[
-🍃TTabchiHelp By @LuaError🍃
+🍃TTabchiHelp By @Pedaret🍃
 ---------------------------------
 ♦️Brodcast Option🍃
 🔶!pm [Id] [Text]
@@ -291,7 +291,7 @@ local text =[[
 🔶!myinfo
 دریافت اطلاعات 
 ---------------------------------
-🔷channel : @LuaError 🍃
+🔷channel : @Teshne 🍃
 ]]
 return text
 end
@@ -495,7 +495,7 @@ end
   send_large_msg(msg.to.id,"Robot Left "..matches[2],ok_cb,false)
   end
   if matches[1]=="myinfo" and is_sudo(msg) then
-  return "♦️YourName♦️"..msg.from.first_name.."\n♦️YourId♦️"..msg.from.id.."\n♦️Group Id♦️"..msg.to.id.."\n@LuaError"
+  return "♦️YourName♦️"..msg.from.first_name.."\n♦️YourId♦️"..msg.from.id.."\n♦️Group Id♦️"..msg.to.id.."\n@Pedaret"
   end
   if matches[1]=="leaveall" and is_sudo(msg) then
    for i=1, #sgps do
